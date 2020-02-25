@@ -6,5 +6,6 @@
 
 (defn -main
   [& args]
+  (println "Hi")
   (println (numpy/linspace 0 2 50))
   (System/exit 0))

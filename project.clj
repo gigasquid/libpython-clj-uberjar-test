@@ -6,4 +6,5 @@
   :dependencies [[org.clojure/clojure "1.10.0"]
                  [clj-python/libpython-clj "1.36"]]
   :repl-options {:init-ns libpython-clj-uberjar-test.core}
+  :aot :all
   :main libpython-clj-uberjar-test.core)
