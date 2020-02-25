@@ -1,6 +1,5 @@
 (ns libpython-clj-uberjar-test.core
-  (:require [libpython-clj.require :refer [require-python]])
-  (:gen-class))
+  (:require [libpython-clj.require :refer [require-python]]))
 
 (require-python '[numpy :as numpy])
 
